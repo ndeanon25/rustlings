@@ -6,7 +6,8 @@
 // I AM NOT DONE
 
 fn main() {
-    call_me();
+    let x = 5;
+    call_me(x);
 }
 
 fn call_me(num: u32) {
