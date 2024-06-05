@@ -16,7 +16,13 @@
 // I AM NOT DONE
 
 // Put your function here!
-// fn calculate_price_of_apples {
+pub fn calculate_price_of_apples(quantity:u32) -> u32 {
+    let mut price_of_apples = 2;
+    if quantity > 40 {
+        price_of_apples = 1;
+    }
+    quantity * price_of_apples
+}
 
 // Don't modify this function!
 #[test]
